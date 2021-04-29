@@ -1,0 +1,116 @@
+.nav-menu {
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #585757;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 5px; }
+  .nav-menu li {
+    padding: 0px 50px 0px 50px; }
+
+.fotos1 {
+  width: 60%;
+  position: center; }
+  .fotos1 img {
+    width: 400px;
+    height: 400px; }
+
+footer {
+  text-align: center; }
+  footer i {
+    font-size: 25px;
+    padding: 0px 50px 0px 50px; }
+
+/* PRODUCTOS*/
+.cartas {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px; }
+
+.card {
+  border-color: #ffffff; }
+
+.card-body {
+  background-color: #2f2f2f;
+  border: none; }
+
+.card-title {
+  color: #ffffff;
+  text-decoration: underline 2px;
+  padding: 2px 0; }
+
+.card-text {
+  color: #FFFFFF; }
+
+.price {
+  color: #FFFFFF;
+  font-size: 22px; }
+
+.cartas a {
+  color: #FFFFFF;
+  font-size: 16px; }
+
+/* ACERCA DE */
+.parrafo {
+  text-align: center; }
+
+.contenedor2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  padding: 0 50px;
+  align-content: center;
+  justify-items: center; }
+
+.card-header {
+  background-color: #f85656;
+  color: #FFFFFF; }
+
+.cards1 {
+  background: #585757; }
+
+.formulario1 {
+  color: #FFFFFF;
+  border: solid 2px #FFFFFF;
+  width: 40vw;
+  padding-left: 20px; }
+
+@media (max-width: 1300px) {
+  .nav-menu {
+    display: block;
+    position: absolute;
+    text-align: right; }
+  .videos1 {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+  .cartas {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+  .contenedor2 {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; } }
+
+@media (max-width: 700px) {
+  .videos1 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+  .cartas {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+  .contenedor2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; } }
+
+@media (max-width: 500px) {
+  .videos1 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+  .cartas {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+  .contenedor2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; } }

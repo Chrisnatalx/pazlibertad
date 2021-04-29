@@ -1,0 +1,30 @@
+/* PRODUCTOS*/
+.cartas{ 
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  .card{
+    border-color: #ffffff;
+  }
+  .card-body{
+    background-color: #2f2f2f;
+    border: none;
+  }
+  .card-title{
+    color: #ffffff;
+    text-decoration: underline 2px;
+    padding: 2px 0;
+  }
+  .card-text{
+    color: #FFFFFF;
+  }
+  .price{
+    color: #FFFFFF;
+    font-size: 22px;
+  }
+  .cartas a{
+    color:#FFFFFF;
+    font-size: 16px;
+  } 

@@ -1,0 +1,26 @@
+/* ACERCA DE */
+.parrafo{
+    text-align: center;
+  }
+  .contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px;
+    padding: 0 50px;
+    align-content: center;
+    justify-items: center;
+  }
+  .card-header{
+    background-color:#f85656;
+    color: #FFFFFF;
+  }
+  .cards1{
+    background: #585757 ;
+  }
+  
+  .formulario1{
+    color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    width: 40vw;
+    padding-left: 20px;
+  }

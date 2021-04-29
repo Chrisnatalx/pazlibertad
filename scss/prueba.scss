@@ -1,0 +1,32 @@
+.nav-menu{
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #585757;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 5px;
+      li{
+      padding: 0px 50px 0px 50px;
+      }
+}
+.fotos1 {
+  width: 60%;
+  position: center;
+    img {
+      width: 400px;
+      height: 400px;
+    }
+}
+footer {
+  text-align: center;
+     i {
+      font-size: 25px;
+      padding: 0px 50px 0px 50px;
+    }
+}
+@import "productos";
+@import "acerca-de";
+@import "responsive";
+
