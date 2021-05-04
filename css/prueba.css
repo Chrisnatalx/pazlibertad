@@ -6,9 +6,11 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
-  margin-top: 5px; }
+  margin-top: 5px; 
+  margin-right: 35px;
+  }
   .nav-menu li {
-    padding: 0px 50px 0px 50px; }
+    padding: 0px 45px 0px 45px; }
 
 .fotos1 {
   width: 60%;
@@ -66,16 +68,14 @@ footer {
   justify-items: center; }
 
 .card-header {
-  background-color: #f85656;
+  background-color: #9272fb;
   color: #FFFFFF; }
-
-.cards1 {
-  background: #585757; }
 
 .formulario1 {
   color: #FFFFFF;
   border: solid 2px #FFFFFF;
   width: 40vw;
+  height: 30vh;
   padding-left: 20px; }
 
 @media (max-width: 1300px) {
