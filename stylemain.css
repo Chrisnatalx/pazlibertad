@@ -85,7 +85,7 @@ footer :hover {
 }
 /*artista*/
 .juli1{
-    width: 100%;
+    width: 100%px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -95,7 +95,7 @@ footer :hover {
     padding-bottom: 10px;
 }
 .rei{
-  width: 400px;
+  width: 350px;
   height: 250px;
 
 }
