@@ -15,9 +15,6 @@
 .fotos1 {
   width: 60%;
   position: center; }
-  .fotos1 img {
-    width: 400px;
-    height: 600px; }
 
 footer {
   text-align: center; }
@@ -71,15 +68,6 @@ footer {
   background-color: #9272fb;
   color: #FFFFFF; }
 
-.formulario1 {
-  color: #FFFFFF;
-  border: solid 2px #FFFFFF;
-  width: 60vw;
-  height: 40vh;
-  padding: 20px 20px;
-}
-
-
 @media (max-width: 1300px) {
   .nav-menu {
     display: block;
@@ -96,9 +84,6 @@ footer {
     width: 100%; } }
 
 @media (max-width: 700px) {
-  .juli1 {
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%; }
   .videos1 {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
@@ -110,9 +95,6 @@ footer {
     width: 100%; } }
 
 @media (max-width: 500px) {
-  .juli1 {
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%; }
   .videos1 {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
