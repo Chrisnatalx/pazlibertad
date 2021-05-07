@@ -16,6 +16,12 @@
       grid-template-columns: repeat(2, 1fr);
       width: 100%;
     }
+    .juli1 {
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%; }
+      .formulario1{
+        height: 400px;
+      }
   }
   @media (max-width: 700px) {
     .videos1 {
@@ -30,6 +36,9 @@
       grid-template-columns: repeat(1, 1fr);
       width: 100%;
     }
+    .juli1 {
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%; }
   }
   @media (max-width: 500px) {
     .videos1 {
@@ -44,4 +53,7 @@
       grid-template-columns: repeat(1, 1fr);
       width: 100%;
     }
+    .juli1 {
+      grid-template-columns: repeat(1, 1fr);
+     width: 100%; }
   }

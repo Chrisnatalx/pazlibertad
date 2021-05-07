@@ -6,15 +6,17 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
-  margin-top: 5px; 
-  margin-right: 35px;
-  }
+  margin-top: 5px; }
   .nav-menu li {
-    padding: 0px 45px 0px 45px; }
+    padding: 0px 50px 0px 50px; }
 
 .fotos1 {
   width: 60%;
   position: center; }
+
+.fotos1 img {
+  height: 600px;
+  width: 600px; }
 
 footer {
   text-align: center; }
@@ -65,8 +67,46 @@ footer {
   justify-items: center; }
 
 .card-header {
-  background-color: #9272fb;
+  background-color: #e15dfb;
   color: #FFFFFF; }
+
+.list-group-item {
+  background: #585757;
+  color: #FFFFFF; }
+
+.cards1 {
+  background: #585757; }
+
+/*contacto*/
+.formulario {
+  display: flex; }
+
+.formulario1 {
+  color: #FFFFFF;
+  border: solid 2px #FFFFFF;
+  width: 60vw;
+  height: 40vh;
+  padding: 20px 20px; }
+
+.pz {
+  padding-left: 50px;
+  width: 350px;
+  height: 300px; }
+
+/*artista*/
+.juli1 {
+  width: 100%px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 15px 0px;
+  padding-left: 10px;
+  padding-bottom: 10px; }
+
+.rei {
+  width: 300px;
+  height: 300px; }
 
 @media (max-width: 1300px) {
   .nav-menu {
@@ -81,7 +121,12 @@ footer {
     width: 100%; }
   .contenedor2 {
     grid-template-columns: repeat(2, 1fr);
-    width: 100%; } }
+    width: 100%; }
+  .juli1 {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+  .formulario1 {
+    height: 400px; } }
 
 @media (max-width: 700px) {
   .videos1 {
@@ -91,6 +136,9 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
   .contenedor2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+  .juli1 {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; } }
 
@@ -102,5 +150,8 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
   .contenedor2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+  .juli1 {
     grid-template-columns: repeat(1, 1fr);
     width: 100%; } }
