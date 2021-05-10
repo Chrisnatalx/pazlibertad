@@ -53,6 +53,14 @@ footer {
   color: #FFFFFF;
   font-size: 16px; }
 
+.btn-primary {
+  background-color: #ec61c0;
+  border: #ec61c0; }
+
+.btn-primary:hover {
+  background-color: #b1157a;
+  color: #FFFFFF; }
+
 /* ACERCA DE */
 .parrafo {
   text-align: center; }
@@ -66,7 +74,7 @@ footer {
   justify-items: center; }
 
 .card-header {
-  background-color: #e15dfb;
+  background-color: #ec61c0;
   color: #FFFFFF; }
 
 .list-group-item {
