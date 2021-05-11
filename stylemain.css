@@ -10,11 +10,7 @@ body {
   padding: 0px;
   margin-bottom: 20px;
 }
-.logo {
-  height: "100px";
-  width: "100px";
-  opacity: 0.3;
-}
+
 h6{ 
   text-align: center;
 }
@@ -38,9 +34,17 @@ a:visited {
   margin-top: 0px;
   margin-bottom: 20px;
 }
+.logo {
+  height: 100px; ;
+  width: 100px;
+  opacity: 0.3;
+}
 .nav-menu :hover {
   color: #ffffff;
   transform: scale(1.5, 1.5);
+}
+.fa-bars{
+  color: #ffffff;
 }
 h1 {
   text-align: center;
